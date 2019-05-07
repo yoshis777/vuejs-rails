@@ -1,24 +1,28 @@
-# README
+# 概要
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+[【動画付き】Rails 5.1で作るVue.jsアプリケーション ～Herokuデプロイからシステムテストまで～](https://qiita.com/jnchito/items/30ab14ebf29b945559f6)
+を参考にrailsでVue.jsを扱う。
 
-Things you may want to cover:
+* rails導入
+* Vue.js導入
+* Vue.jsチュートリアルの適用
+* heroku本番環境へのデプロイ
+* vueファイル即時リロード適用
+* システムテスト導入
 
-* Ruby version
+# 実行
+#### 準備
+```bash
+$ bin/bundle install
+```
 
-* System dependencies
+#### vueファイル変更即時リロードでサーバ起動
+```bash
+$ bin/server
+```
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+#### システムテスト実行
+```bash
+bin/rails test:system
+```
+* テスト失敗時にtmp/screenshotsにpng画像が残る
