@@ -1,7 +1,7 @@
 # 概要
 
 [【動画付き】Rails 5.1で作るVue.jsアプリケーション ～Herokuデプロイからシステムテストまで～](https://qiita.com/jnchito/items/30ab14ebf29b945559f6)
-を参考にrailsでVue.jsを扱う。
+を参考にrailsでVue.jsを扱う。  
 
 * rails導入
 * Vue.js導入
@@ -9,6 +9,8 @@
 * heroku本番環境へのデプロイ
 * vueファイル即時リロード適用
 * システムテスト導入
+
+（伊藤淳一さんの動画は、rubymineあるいはIntelliJ IDEA ultimateを使用している場合、ショートカット等の使用感を覗くことができます）
 
 # 実行
 #### 準備
